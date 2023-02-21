@@ -1,61 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clase Supe1</title> <!--Esto se muestra en la pestaña del navegador-->
-    <link rel="stylesheet" href="style.css"> <!--los estilos de CSS se cargan dentro del head-->
-
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-</head>
-<body>
-    <img id="img-cabecera" src="https://www.festivalcortocr.com/wp-content/uploads/2020/01/banner_festival_ciclope-02-1024x304.jpg" alt="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clase Supe1 sin bootstrap</title>
+    <!--Esto se muestra en la pestaña del navegador-->
+    <link rel="stylesheet" href="style.css" />
+    <!--los estilos de CSS se cargan dentro del head-->
+  </head>
+  <body>
+    <img
+      id="img-cabecera"
+      src="https://www.festivalcortocr.com/wp-content/uploads/2020/01/banner_festival_ciclope-02-1024x304.jpg"
+      alt=""
+    />
     <h1>Tablas y Botones</h1>
     <p>En esta clase veremos como hacer tablas y botones.</p>
     <h3>Parte 1: Tablas:</h3>
-    <p class="p1">En la primera parte veremos como hacer una tabla y modificar su estilo en CSS.</p>
+    <p class="p1">
+      En la primera parte veremos como hacer una tabla y modificar su estilo en
+      CSS.
+    </p>
     <h3>Parte 2: Botones:</h3>
-    <p class="p2">En la segunda parte, haremos un botón que nos muestre el resultado total al clicar sobre este. Utilizaremos la función llamar al evento de JavaScript.</p>
-    <br> <!--es un salto de linea-->
+    <p class="p2">
+      En la segunda parte, haremos un botón que nos muestre el resultado total
+      al clicar sobre este. Utilizaremos la función llamar al evento de
+      JavaScript.
+    </p>
+    <br />
+    <!--es un salto de linea-->
     <div class="contenedor-tabla">
-        <table class="tabla-resultados">
-            <tr> <!--table row es una fila de una tabla-->
-                <th></th> <!--table head es el texto en negrita como cabecera-->
-                <th>sábado</th> 
-                <th>domingo</th>
-            </tr>
-            <tr>
-                <th>tickets mañanas</th>
-                <td id="num-sab-manana"></td> <!--table data es el texto por defecto sin negrita, son los datos-->
-                <td id="num-dom-manana"></td>
-            </tr> 
-            <tr>
-                <th>tiquets tardes</th>
-                <td id="num-sab-tardes"></td>
-                <td id="num-dom-tardes"></td>
-            </tr>
-            <tr>
-                <th>total ventas</th>
-                <td id="total-sabado"></td>
-                <td id="total-domingo"></td>
-            </tr>
-        </table>
-    </div>
-    <br>
-    <table>
+      <table class="tabla-resultados">
         <tr>
-            <th id="r-finde">Resultados Total Ventas Fin de Semana:</th>
-            <td id="total-finde"></td>
+          <!--table row es una fila de una tabla-->
+          <th></th>
+          <!--table head es el texto en negrita como cabecera-->
+          <th>sábado</th>
+          <th>domingo</th>
         </tr>
+        <tr>
+          <th>tickets mañanas</th>
+          <td id="num-sab-manana"></td>
+          <!--table data es el texto por defecto sin negrita, son los datos-->
+          <td id="num-dom-manana"></td>
+        </tr>
+        <tr>
+          <th>tiquets tardes</th>
+          <td id="num-sab-tardes"></td>
+          <td id="num-dom-tardes"></td>
+        </tr>
+        <tr>
+          <th>total ventas</th>
+          <td id="total-sabado"></td>
+          <td id="total-domingo"></td>
+        </tr>
+      </table>
+    </div>
+    <br />
+    <table>
+      <tr>
+        <th id="r-finde">Resultados Total Ventas Fin de Semana:</th>
+        <td id="total-finde"></td>
+      </tr>
     </table>
     <p id="btn">Calcular</p>
-    
+
     <!-- El script de JS va al final del body dentro de este: -->
     <script src="main.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    
-</body>
+  </body>
 </html>
- 
-
