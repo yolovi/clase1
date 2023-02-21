@@ -1,0 +1,69 @@
+body {
+    padding: 5%;
+}
+
+h1 {
+    color: #c59b39;
+}
+
+h3 {
+    color: #79a5aa;
+}
+/* las etiquetas se escriben solo con el nombre de la etiqueta
+las clases se escriben con . delante ejemplo: .p1 
+los ID se escriben con la # delante. Ejemplo: #paco*/
+
+.p1 {
+    color: grey;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif, Verdana, sans-serif;
+}
+
+.p2 {
+    color: rgb(180, 180, 190);
+}
+
+.tabla-resultados {
+    background-color: #79a5aa;
+    border-radius: 5px;
+}
+th {
+    color: white;
+    width: 140px;
+    height: 20px;
+}
+
+td {
+    background-color: white;
+    color: #79a5aa;
+    text-align: center;
+}
+
+#r-finde {
+    color: grey;
+    width: 300px;
+    height: 40px;
+    text-align: left;
+}
+
+#total-finde {
+    color: #c59b39;
+}
+
+#btn {
+    font-size: 12px;
+    font-family: Arial;
+    padding: 8px;
+    width: 100px;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    background: #c59b39;
+    text-align: center;
+    }
+
+#btn:hover {
+    background: #947429;
+    cursor: pointer;
+    }
+
